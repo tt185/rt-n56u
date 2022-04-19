@@ -42,3 +42,4 @@ clean:
 
 romfs:
 	$(ROMFSINST) -p +x $(THISDIR)/$(SRC_NAME)/src/inadyn /bin/inadyn
+	$(ROMFSINST) -p +x ardnspod /usr/bin/ardnspod

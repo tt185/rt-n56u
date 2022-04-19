@@ -322,6 +322,8 @@ EOF
 ### \$2 - WAN interface name (e.g. eth3 or ppp0)
 ### \$3 - WAN IPv4 address
 
+#[ $1 == "up" ] && ardnspod APPID SecretKey domain record
+
 EOF
 		chmod 755 "$script_postw"
 	fi
